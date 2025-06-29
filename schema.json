@@ -1,0 +1,33 @@
+{
+  "sheetPrefix": "BaoCao_PhongBan",
+  "headers": [
+    "Timestamp",
+    "TenKhachSan",
+    "TenPhongBan",
+    "NoiDungVanDe",
+    "NguoiBaoCao",
+    "TrangThai"
+  ],
+  "dashboardConfig": {
+    "queries": [
+      {
+        "title": "Thống kê vấn đề theo Khách sạn",
+        "targetCell": "A2",
+        "queryTemplate": "SELECT B, COUNT(B) WHERE B IS NOT NULL GROUP BY B LABEL B 'Tên Khách Sạn', COUNT(B) 'Số Vấn Đề'",
+        "chartConfig": {
+          "type": "PIE",
+          "anchorCell": "A10"
+        }
+      },
+      {
+        "title": "Thống kê vấn đề theo Trạng thái",
+        "targetCell": "E2",
+        "queryTemplate": "SELECT F, COUNT(F) WHERE F IS NOT NULL GROUP BY F LABEL F 'Trạng thái', COUNT(F) 'Số lượng'",
+        "chartConfig": {
+          "type": "COLUMN",
+          "anchorCell": "E10"
+        }
+      }
+    ]
+  }
+}
