@@ -1,18 +1,39 @@
 {
-  "sheetPrefix": "Dữ Liệu Sự Cố",
-  "headers": [
-    "TicketID",
-    "Mã cơ sở KD",
-    "Ưu tiên",
-    "Mô tả",
-    "Trạng thái",
-    "Người báo cáo",
-    "Thời gian tạo",
-    "Năm",
-    "Tháng",
-    "Ngày",
-    "Bao lâu"
-  ],
-  "dashboardConfig": {
-  }
+  "sheets": [
+    {
+      "sheetPrefix": "Dữ Liệu Sự Cố",
+      "headers": [
+        "TicketID",
+        "Mã cơ sở KD",
+        "Ưu tiên",
+        "Mô tả",
+        "Trạng thái",
+        "Người báo cáo",
+        "Thời gian tạo",
+        "Năm",
+        "Tháng",
+        "Ngày",
+        "Bao lâu"
+      ],
+      "dashboardConfig": {}
+    },
+    {
+      "sheetPrefix": "Chờ Duyệt",
+      "headers": [
+        "TicketID",
+        "Mã cơ sở KD",
+        "Ưu tiên",
+        "Mô tả",
+        "Trạng thái",
+        "Người báo cáo",
+        "Thời gian tạo",
+        "Năm",
+        "Tháng",
+        "Ngày",
+        "Bao lâu",
+        "Xác nhận"
+      ],
+      "dashboardConfig": {}
+    }
+  ]
 }
