@@ -13,7 +13,8 @@
         "Năm",
         "Tháng",
         "Ngày",
-        "Bao lâu"
+        "Bao lâu",
+        "Ghi chú"
       ],
       "dashboardConfig": {}
     },
@@ -31,7 +32,8 @@
         "Tháng",
         "Ngày",
         "Bao lâu",
-        "Xác nhận"
+        "Xác nhận",
+        "Ghi chú"
       ],
       "dashboardConfig": {}
     }
